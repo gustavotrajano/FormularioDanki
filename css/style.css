@@ -7,13 +7,14 @@
     font-family: 'Open Sans';
 }
 
-html,body {
+html,
+body {
     height: 100%;
 }
 
-@font-face{
-	src:url('../fonts/OpenSans-Light.ttf');
-	font-family: "Open Sans";
+@font-face {
+    src: url('../fonts/OpenSans-Light.ttf');
+    font-family: "Open Sans";
 }
 
 .clear {
@@ -22,8 +23,8 @@ html,body {
 
 .center {
     max-width: 1280px;
-	width: 100%;
-	margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .header {
@@ -39,29 +40,29 @@ html,body {
 
 .banner-container {
     width: 100%;
-	padding:0 2%;
-	height: 557px;
+    padding: 0 2%;
+    height: 557px;
     background-image: url('../images/header_bg.png');
     background-size: cover;
     background-position: center;
 }
 
-.banner-container > .center {
+.banner-container>.center {
     height: 100%;
 }
 
 .form {
-    padding:10px;
-	width: 400px;
-	height: calc(100% + 30px);
-	float: right;
-	position: relative;
-	top:-15px;
-	border-width: 12px;
-	border-color: rgba(120,120,120,0.5);
-	border-style: solid;
-	background-color: white;
-	background-clip:padding-box;
+    padding: 10px;
+    width: 400px;
+    height: calc(100% + 30px);
+    float: right;
+    position: relative;
+    top: -15px;
+    border-width: 12px;
+    border-color: rgba(120, 120, 120, 0.5);
+    border-style: solid;
+    background-color: white;
+    background-clip: padding-box;
     /*background-origin tem o mesmo conceito mas serve para imagem*/
 }
 
@@ -72,10 +73,11 @@ html,body {
 }
 
 .input-container {
-    margin-top: 20px;  
+    margin-top: 20px;
 }
 
-.input-container span, .form p {
+.input-container span,
+.form p {
     display: inline-block;
     width: 100%;
     color: #bbb;
@@ -85,9 +87,9 @@ html,body {
 
 .form p {
     display: inline-block;
-	width: 100%;
-	color: #BBBBBB;
-	font-size: 17px;
+    width: 100%;
+    color: #BBBBBB;
+    font-size: 17px;
     margin: 20px 0;
 }
 
@@ -107,7 +109,7 @@ html,body {
     width: 280px;
     height: 56px;
     display: inline-block;
-    background-color:  #363a6d;
+    background-color: #363a6d;
     border-bottom: 5px solid #4a5097;
 }
 
@@ -143,7 +145,7 @@ html,body {
     padding: 40px 2%;
     background-color: #ddd;
     text-align: center;
-    
+
 }
 
 .segundo-container h2 {
@@ -190,7 +192,7 @@ html,body {
     padding: 30px;
 }
 
-.single-container img{
+.single-container img {
     width: 70px;
 }
 
@@ -211,80 +213,80 @@ html,body {
     margin-top: 8px;
 }
 
-@media screen and (max-width: 1024px){
-	.header{
-		height: auto;
-		width: 100%;
-		padding:15px 0;
-		text-align: center;
-	}
+@media screen and (max-width: 1024px) {
+    .header {
+        height: auto;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
 
-	.header img{
-		margin:0;
-	}
+    .header img {
+        margin: 0;
+    }
 
-	.container-list{
-		padding:30px 0;
-		width: 40%;
-		float: left;
-		display: inline-block;
-		max-width: 500px;
-		height: auto;
-	}
+    .container-list {
+        padding: 30px 0;
+        width: 40%;
+        display: inline-block;
+        max-width: 500px;
+        height: auto;
+    }
 
-	.container-banner{
-		width: 100%;
-		padding:40px 2%;
-		height: auto;
-		text-align: center;
-	}
+    .container-banner {
+        width: 100%;
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;
+    }
 
-	.form{
-		max-width: 400px;
-		padding:10px;
-		width: 60%;
-		height: 100%;
-		float:right;
-		top:0;
-	}
+    .form {
+        max-width: 400px;
+        padding: 10px;
+        width: 60%;
+        height: 100%;
+        float: right;
+        top: 0;
+    }
 
-	.input-container input[type=text]{
-		width: 100%;
-		height: 55px;
-	}
+    .input-container input[type=text] {
+        width: 100%;
+        height: 55px;
+    }
 
 
-	.form input[type=submit]{
-		max-width: 280px;
-		height: 56px;
-		width: 100%;
-	}
+    .form input[type=submit] {
+        max-width: 280px;
+        height: 56px;
+        width: 100%;
+    }
 }
 
-@media screen and (max-width: 768px){
-	.container-2{
-		padding-right: 4%;
-		padding-left: 4%;
-	}
-	.container-list{
-		margin-top: 0;
-		float: none;
-		display: inline-block;
-		width: 100%;
-	}
+@media screen and (max-width: 768px) {
+    .container-2 {
+        padding-right: 4%;
+        padding-left: 4%;
+    }
 
-	.form{
-		float: none;
-		display: inline-block;
-		width: 90%;
-		margin-top:30px;
-	}
+    .container-list {
+        margin-top: 0;
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
 
-	.container-single{
-		float: none;
-		display: inline-block;
-		width: 100%;
-		max-width: 600px;
-		padding:30px 0;
-	}
+    .form {
+        float: none;
+        display: inline-block;
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .container-single {
+        float: none;
+        display: inline-block;
+        width: 100%;
+        max-width: 600px;
+        padding: 30px 0;
+    }
 }
