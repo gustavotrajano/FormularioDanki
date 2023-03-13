@@ -52,7 +52,7 @@ body {
 }
 
 .form {
-    padding: 10px;
+    padding: 16px;
     width: 400px;
     height: calc(100% + 30px);
     float: right;
@@ -93,10 +93,15 @@ body {
     margin: 20px 0;
 }
 
+.input-container input[type=text]:focus{
+    outline: 0;
+}
+
 .input-container input[type=text] {
     margin-top: 8px;
     width: 344px;
     height: 55px;
+    padding: 8px 10px;
     border: 1px solid #ccc;
 }
 
